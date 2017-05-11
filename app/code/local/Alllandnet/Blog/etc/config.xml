@@ -1,0 +1,44 @@
+<config>   
+    <modules>
+        <Alllandnet_Blog>
+            <version>0.1.0</version>
+        </Alllandnet_Blog>
+    </modules>
+
+    <global>
+        <models>
+            <blog>
+                <class>Alllandnet_Blog_Model</class>
+                <resourceModel>blog_resource</resourceModel>
+            </blog>
+            <blog_resource>
+                <class>Alllandnet_Blog_Model_Resource</class>
+                <entities>
+                    <post>
+                        <table>posts</table>
+                    </post>
+                </entities>
+            </blog_resource>
+        </models>
+        <resources>
+            <blog_setup>
+                <setup>
+                    <module>Alllandnet_Blog</module>
+                    <class>Alllandnet_Blog_Model_Resource_Setup</class>
+                </setup>
+            </blog_setup>
+        </resources>
+    </global>
+
+    <frontend>
+        <routers>
+            <blog>
+                <use>standard</use>
+                <args>
+                    <module>Alllandnet_Blog</module>
+                    <frontName>blog</frontName>
+                </args>
+            </blog>
+        </routers> 
+    </frontend>
+</config>

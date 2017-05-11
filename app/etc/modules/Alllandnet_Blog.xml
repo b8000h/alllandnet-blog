@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Alllandnet_Blog>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Alllandnet_Blog>
+	</modules>
+</config>
