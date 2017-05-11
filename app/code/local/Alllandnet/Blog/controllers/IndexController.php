@@ -1,7 +1,7 @@
 <?php
 class Alllandnet_Blog_IndexController extends Mage_Core_Controller_Front_Action {       
     public function indexAction() {
-    	echo 'Blog Setup!'
+    	echo 'Blog Setup!';
     	/*
     	$blog = Mage::getModel('blog/post');
     	$blog = load(1);
@@ -37,7 +37,7 @@ public function showCollectionAction() {
 } 
 
     public function testModelAction() {
-    	echo 'Blog Setup!'
+    	echo 'Blog Setup!';
     	/*
         $params = $this->getRequest()->getParams();
         $blogpost = Mage::getModel('blog/post');

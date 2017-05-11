@@ -1,9 +1,11 @@
 <?php
 
+/*
 $installer = $this;
 throw new Exception("This is an exception to stop the installer from completing");
+*/
 
-/*
+
     $installer = $this;
     $installer->startSetup();
     $installer->addEntityType('blog_post', array(
@@ -41,4 +43,3 @@ throw new Exception("This is an exception to stop the installer from completing"
         'required'          => false,
     ));
     $installer->endSetup();
-*/
